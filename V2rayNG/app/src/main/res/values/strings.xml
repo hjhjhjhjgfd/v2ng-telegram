@@ -515,11 +515,12 @@
     <string name="mahsa_repo_title">Repo Title</string>
     <string name="mahsa_repo_url">Repo URL</string>
 
-</resources>
     <!-- TV layout references -->
     <string name="manual_repo_title">Manual Repo</string>
     <string name="manual_repo_hint">Repository URL</string>
     <string name="ems_button_get_config">Get Config</string>
     <string name="donor">Donors</string>
     <string name="empty_state_title">No Data</string>
-    <string name="empty_state_desc">Nothing to show yet.</string>
+    <string name="empty_state_desc">Nothing to show yet</string>
+
+    </resources>
