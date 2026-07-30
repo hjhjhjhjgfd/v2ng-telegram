@@ -3,8 +3,6 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
-        maven { url = uri("https://maven.aliyun.com/repository/public") }
     }
 }
 dependencyResolutionManagement {
@@ -12,8 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // JCenter is dead (Feb 2022).  Use Aliyun's mirror for the
+        // handful of legacy artifacts (rxpermissions 0.9.4) that were
+        // only published there; everything else resolves from the
+        // standard Central / Google repos above.
         maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
-        maven { url = uri("https://maven.aliyun.com/repository/public") }
         maven { url = uri("https://jitpack.io") }
     }
 }
