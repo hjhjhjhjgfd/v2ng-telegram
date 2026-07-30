@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Floating glass action panel — Telegram-style.
+      Sits above the FAB at the bottom-right of MainActivity.
+      Holds Real-Ping and Sort-by-ping buttons. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/floating_action_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="80dp"
+    android:visibility="gone"
+    android:background="@drawable/bg_glass_capsule"
+    android:padding="8dp"
+    android:elevation="6dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_real_ping"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_real_ping"
+        android:textColor="@color/colorWhite"
+        app:icon="@drawable/ic_whatshot_white_24dp"
+        app:iconTint="@color/colorWhite"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sort_ping"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sort_by_ping"
+        android:textColor="@color/colorWhite"
+        app:icon="@drawable/ic_sort"
+        app:iconTint="@color/colorWhite"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp" />
+
+</LinearLayout>

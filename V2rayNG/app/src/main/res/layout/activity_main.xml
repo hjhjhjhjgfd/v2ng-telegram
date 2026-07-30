@@ -228,13 +228,21 @@
                     android:clickable="true"
                     android:contentDescription="M connect button"
                     android:focusable="true"
-                    android:nextFocusLeft="@+id/layout_test"
+                    android:nextFocusLeft="@id/layout_test"
                     android:src="@drawable/ic_stat_name_m2"
                     app:layout_anchorGravity="bottom|right|end" />
 
 
-            </androidx.coordinatorlayout.widget.CoordinatorLayout>
-        </RelativeLayout>
+           </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <include
+                layout="@layout/floating_action_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true" />
+
+       </RelativeLayout>
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView

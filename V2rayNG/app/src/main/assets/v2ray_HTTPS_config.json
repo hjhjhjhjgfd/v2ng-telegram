@@ -143,17 +143,7 @@
         "outboundTag": "block",
         "type": "field",
         "enabled": true
-      },
-
-      {
-        "domain": [
-          "geosite:category-porn"
-        ],
-        "outboundTag": "block",
-        "type": "field"
       }
-
-
 
     ]
   }
