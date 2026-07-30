@@ -62,7 +62,7 @@
     <color name="color_sponsor_fix">#363636</color>
     <color name="color_footer_toolbox">#575757</color>
 
-</resources>
+        <!-- Cosmic palette token (added by Telegram-style redesign) -->
+        <color name="color_btn_light_blue2">#D9E8F7</color>
 
-    <!-- Cosmic palette token (added by Telegram-style redesign) -->
-    <color name="color_btn_light_blue2">#D9E8F7</color>
+    </resources>
