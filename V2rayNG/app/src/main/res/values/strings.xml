@@ -509,4 +509,10 @@
     <string name="server_address">Server Address</string>
     <string name="server_port">Port</string>
 
+    <!-- References from GFW-knocker layouts -->
+    <string name="start">Start</string>
+    <string name="repository_source_label">Source</string>
+    <string name="mahsa_repo_title">Repo Title</string>
+    <string name="mahsa_repo_url">Repo URL</string>
+
 </resources>
