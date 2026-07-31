@@ -65,9 +65,11 @@
         <!-- Cosmic palette token (added by Telegram-style redesign) -->
         <color name="color_btn_light_blue2">#D9E8F7</color>
 
+        <!-- TV layout references -->
+        <color name="donor_label">#B388FF</color>
+        <color name="donor_divider">#3D3656</color>
+        <color name="donor_link">#E6E1F0</color>
+        <color name="empty_title_text">#E6E1F0</color>
+        <color name="empty_desc_text">#8888AA</color>
+
     </resources>
-    <color name="donor_label">#B388FF</color>
-    <color name="donor_divider">#3D3656</color>
-    <color name="donor_link">#E6E1F0</color>
-    <color name="empty_title_text">#E6E1F0</color>
-    <color name="empty_desc_text">#8888AA</color>
