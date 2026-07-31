@@ -78,3 +78,16 @@ val URLConnection.responseLength: Long
 
 val URI.idnHost: String
     get() = (host!!).replace("[", "").replace("]", "")
+
+/**
+ * Placeholder for GFW-knocker plugin listening.
+ * The real implementation monitors package installs;
+ * this stub satisfies the compiler so PluginManager
+ * and PluginList can link.
+ */
+fun Context.listenForPackageChanges(
+    onInstalled: (String) -> Unit,
+    onUninstalled: (String) -> Unit
+): Unit {
+    // No-op in this build
+}

@@ -7,7 +7,9 @@ enum class EConfigType(val value: Int, val protocolScheme: String) {
     SOCKS(4, "socks://"),
     VLESS(5, "vless://"),
     TROJAN(6, "trojan://"),
-    WIREGUARD(7, "wireguard://");
+    WIREGUARD(7, "wireguard://"),
+    HTTP(8, "http://"),
+    HYSTERIA2(9, "hysteria2://");
 
     companion object {
         fun fromInt(value: Int) = values().firstOrNull { it.value == value }
