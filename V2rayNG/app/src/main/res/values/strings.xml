@@ -523,11 +523,11 @@
     <string name="empty_state_title">No Data</string>
     <string name="empty_state_desc">Nothing to show yet</string>
 
-    </resources>
+        <!-- TV layout reference strings -->
+        <string name="all_subs">All Subscriptions</string>
+        <string name="btn_accept">Accept</string>
+        <string name="btn_disagree">Disagree</string>
+        <string name="license_title">License</string>
+        <string name="license_subtitle">Please review and accept the license</string>
 
-    <!-- TV layout reference strings -->
-    <string name="all_subs">All Subscriptions</string>
-    <string name="btn_accept">Accept</string>
-    <string name="btn_disagree">Disagree</string>
-    <string name="license_title">License</string>
-    <string name="license_subtitle">Please review and accept the license</string>
+    </resources>
