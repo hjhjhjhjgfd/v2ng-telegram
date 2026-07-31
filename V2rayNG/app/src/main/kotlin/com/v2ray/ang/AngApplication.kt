@@ -7,13 +7,16 @@ import com.tencent.mmkv.MMKV
 class AngApplication : MultiDexApplication() {
     companion object {
         const val PREF_LAST_VERSION = "pref_last_version"
-    }
+        lateinit var application: AngApplication
+            private set
+   }
 
     var firstRun = false
         private set
 
     override fun onCreate() {
         super.onCreate()
+        application = this
 
 //        LeakCanary.install(this)
 

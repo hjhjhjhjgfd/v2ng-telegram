@@ -87,4 +87,28 @@ object AppConfig {
     const val MSG_MEASURE_CONFIG = 7
     const val MSG_MEASURE_CONFIG_SUCCESS = 71
     const val MSG_MEASURE_CONFIG_CANCEL = 72
+
+    // Protocols (referenced by V2rayConfig.OutboundBean.protocol)
+    const val PROTOCOL_HTTP = "http"
+    const val PROTOCOL_HTTPS = "https"
+    const val PROTOCOL_HYSTERIA2 = "hysteria2"
+    const val PROTOCOL_WIREGUARD = "wireguard"
+    const val PROTOCOL_VMESS = "vmess"
+    const val PROTOCOL_VLESS = "vless"
+    const val PROTOCOL_SHADOWSOCKS = "shadowsocks"
+    const val PROTOCOL_TROJAN = "trojan"
+
+    // Preference keys
+    const val my_preference_storage = "my_preference_storage"
+    const val config_pkg_reader = "config_pkg_reader"
+    const val PREF_UI_MODE_NIGHT = "pref_ui_mode_night"
+    const val PREF_DELAY_TEST_URL = "pref_delay_test_url"
+    const val PREF_DELAY_TEST_URL_2 = "pref_delay_test_url_2"
+
+    // Delay test URLs
+    const val DelayTestUrl = "https://www.google.com/generate_204"
+    const val DelayTestUrl2 = "https://cp.cloudflare.com/generate_204"
+
+    // Plugin helpers
+    const val listenForPackageChanges = "listenForPackageChanges"
 }
